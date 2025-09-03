@@ -1,0 +1,30 @@
+# Columns for player tables in GUI
+WEIGHT_PPR = 0.8
+WEIGHT_AVG_PPG_PPR = 0.2
+
+NUM_TEAMS = 8
+ROSTER_SIZE = 17
+TOTAL_PICKS = NUM_TEAMS * ROSTER_SIZE
+
+NAME_COL = "NAME"
+POS_COL = "POS"
+TIER_COL = "TIER"
+TEAM_COL = "TEAM"
+BYE_COL = "BYE"
+PLAYERS_LEFT_TIER = "PLAYERS_LEFT_IN_TIER"
+PPR_PTS = "PPR_PTS"
+AVG_PPG_PPR = "AVG_PPG_PPR"
+WEIGHTED_SCORE_COL = "WEIGHTED_SCORE"
+
+POSITIONS = ["QB", "RB", "WR", "TE"]
+
+PLAYER_TABLE_CONFIG = {
+    "Name": 150,
+    "Pos": 50,
+    "Team": 50,
+    "Score": 65,
+    "Tier": 45,
+    "Left In Tier": 75,
+    "BYE": 45,
+    "BYE Conflict": 100
+}
