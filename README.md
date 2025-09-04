@@ -90,11 +90,11 @@ When running `Draft_Tracker_GUI.py`, the following panels and controls are displ
 - **Draft Position Prompt:**
 	- At startup, a popup prompts you to enter your draft position (1 to number of teams).
 
-![Draft Position Prompt](image.png)
+![Draft Position Prompt](Images/Draft_Position_Prompt.png)
 
 **Fantasy Draft Tracker**
 
-![Fantasy Draft Tracker](image-1.png)
+![Fantasy Draft Tracker](Images/Fantasy_Draft_Tracker.png)
 
 - **Top Recommendations Panel (left):**
 	- Table labeled "Top Recommendations" showing the top suggested picks for your next draft selection.
