@@ -82,6 +82,44 @@ The draft and league format are controlled by constants in `Constants/constants.
 The following columns are used in the GUI and must be present in the data:
 - Name, Pos, Team, Score, Tier, Left In Tier, BYE, BYE Conflict
 
+## GUI Breakdown
+
+When running `Draft_Tracker_GUI.py`, the following panels and controls are displayed:
+
+
+- **Draft Position Prompt:**
+	- At startup, a popup prompts you to enter your draft position (1 to number of teams).
+
+![Draft Position Prompt](image.png)
+
+**Fantasy Draft Tracker**
+
+![Fantasy Draft Tracker](image-1.png)
+
+- **Top Recommendations Panel (left):**
+	- Table labeled "Top Recommendations" showing the top suggested picks for your next draft selection.
+
+- **Top Players by Position Panel (right):**
+	- Four tables (QB, RB, WR, TE) each showing the top available players at that position.
+
+- **My Roster Panel (below recommendations):**
+	- Table labeled "My Roster" listing all players you have drafted so far.
+
+- **Draft Input and Controls (below position tables):**
+	- Entry box to type or search for a player name (with autocomplete dropdown).
+	- "Draft for Me" button: Drafts the selected player to your team (only visible on your turn).
+	- "Other Team Drafted" button: Marks a player as drafted by another team (only visible when it's not your turn).
+
+- **Draft Progress Info (top):**
+	- Displays the current round, your team number, overall pick number, and a "Your turn!" indicator if it is your pick.
+
+- **Other Features:**
+	- Clicking a player in any table auto-fills the draft entry box for quick selection.
+	- Autocomplete suggestions appear as you type a player name.
+	- All tables and recommendations update in real time as picks are made.
+
+The GUI is designed for fast, accurate draft tracking and recommendations, with all information updating live as you make selections.
+
 ## Usage
 
 1. Prepare the required CSV files in the `Data/` directory, following the formats above.
